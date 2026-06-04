@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(try { \\(Get-Command gh -ErrorAction Stop\\).Source } catch { \"gh not found\" })"
+    ]
+  }
+}
