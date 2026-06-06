@@ -19,13 +19,19 @@ venv/
 env/
 .env
 
+# Sensitive files (contain schema/table names or credentials)
+query.sql
+config.ini
+
 # Data / models (large files)
 *.pkl
 *.pickle
 *.parquet
 *.h5
 *.hdf5
+*.safetensors
 bertopic_model/
+output/
 
 # IDE
 .vscode/settings.json
